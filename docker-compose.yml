@@ -1,0 +1,12 @@
+services:
+  rag-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"

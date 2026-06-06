@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pymupdf
+pytesseract
+pillow
+sentence-transformers
+faiss-cpu
+redis
+llama-cpp-python
